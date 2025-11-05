@@ -89,7 +89,7 @@ var homeSwiper = new Swiper(".home-swiper", {
         time: inputs[5].value,
       };
 
-      fetch('/api', {
+      fetch('https://foodio-backend.vercel.app/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
