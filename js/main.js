@@ -89,7 +89,7 @@ var homeSwiper = new Swiper(".home-swiper", {
         time: inputs[5].value,
       };
 
-      fetch('http://localhost:3000/', {
+      fetch('/api', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
